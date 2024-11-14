@@ -1,5 +1,24 @@
 body{
     background-color: #EDEDED;
+
+    font-family: "Roboto", sans-serif;      
+}
+footer{
+    background-color: #1e2c20;
+    color: #FFF;
+}
+
+li{
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 18.75px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+li:hover
+{
+ 
 }
 .section-hero{
     width: 100%;
@@ -14,8 +33,37 @@ body{
     align-items: center;
 }
 
+.section-hero__sales-text{
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 28.13px;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
+}
+
 .navbar__bg-color{
     background-color: #EDEDED;
+}
+
+.section-header__text{
+    
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 75px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
+}
+
+.footer-header__text{
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 23.44px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
 }
 
 .hero-section__Text{
@@ -34,16 +82,33 @@ body{
 
 }
 
+.hero-sales-bar{
+    height: 99px;
+    background-color: #1e2c20;
+    color: #FFF;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .start-cooking-section{
     display: grid;
     grid-template-rows: 58px 1fr;
+
+    margin-top: 119px;
 }
 
 .start-cooking-card-section{
     display: grid;
 
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    margin: 0;
+    grid-template-columns: auto auto auto auto;
+    margin-top: 59px;
+
+    gap: 44px;
+
+    justify-content: center;
+
 }
 
 .start-cooking--card__image{
@@ -55,15 +120,35 @@ body{
 
 }
 
+.start-cooking--card__text{
+
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 42.19px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #292828;
+
+}
+
 .new-arrivals-section--header__Text{
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
+.new-arrivals-section{
+    margin-top: 122px;
+}
+
 .new-arrivals-section--cards{
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+
+    gap: 37px;
+
+    margin: 61px 0 0 0;
 }
 
 .new-arrivals-section--card__image{
@@ -81,29 +166,36 @@ body{
     opacity: 0px;
 }
 .best-sellers-section--card{
-    border: solid black;
+    border: solid black 1px;
     border-radius: 10px;
     gap: 24px;
     padding: 24px;
+    margin: 58px 0 0 0;
 }
 
 .best-sellers-section__button{
-    border: solid black;
+    border: solid black 1px;
     padding: 10px 10px 0 10px;
 }
 
 .reviews-section{
     display: grid;
 
-    grid-template-rows: 100px auto;
+    grid-template-rows: auto auto;
+
+    margin-top: 123px;
 }
 
 .reviews-card-section{
     display: grid;
 
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 531px 531px 531px;
     
-    gap: 10px;
+    justify-content: center;
+
+    gap: 20px;
+
+    margin:65px 100px 100px 100px;
 }
 
 .grid-section--header__Text{

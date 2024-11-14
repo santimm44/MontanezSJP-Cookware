@@ -1,6 +1,10 @@
 <!doctype html>
 <html lang="en">
   <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Cookingware</title>
@@ -44,17 +48,16 @@
       <div>
         <p class="hero-section__Text">Cookware Built to Last</p>
       </div>
-      <img src="#" alt>
-      <div>
-        <p>Sale $10 off when you spend $150</p>
-      </div>
     </section>
+    <div class="hero-sales-bar">
+      <h1 class="section-hero__sales-text">Sale $10 off when you spend $150</h1>
+    </div>
     <!--Hero section end-->
 
     <!--Start Cooking start (Grid only)-->
     <section class="start-cooking-section">
       <div class="grid-section--header__Text">
-        <h1>Start Cooking</h1>
+        <h1 class="section-header__text">Start Cooking</h1>
       </div>
 
       <div class="start-cooking-card-section">
@@ -63,7 +66,7 @@
           <img class="start-cooking--card__image"
             src="./assets/resources/StartCooking1.jpeg"
             alt="Cast Iron Pot Card Image">
-          <p>Cast Iron Pot</p>
+          <p class="start-cooking--card__text">Cast Iron Pot</p>
         </div>
 
         <!--Card2-->
@@ -71,7 +74,7 @@
           <img class="start-cooking--card__image"
             src="./assets/resources/StartCooking2.jpeg"
             alt="Stock Pot Card Image">
-          <p>Stock Pot</p>
+          <p class="start-cooking--card__text">Stock Pot</p>
         </div>
 
         <!--Card3-->
@@ -79,7 +82,7 @@
           <img class="start-cooking--card__image"
             src="./assets/resources/StartCooking3.jpeg"
             alt="Sauce Pan Card Image">
-          <p>Sauce Pan</p>
+          <p class="start-cooking--card__text">Sauce Pan</p>
         </div>
 
         <!--Card4-->
@@ -87,7 +90,7 @@
           <img class="start-cooking--card__image"
             src="./assets/resources/StartCooking4.jpeg"
             alt="Accessories Card Image">
-          <p>Accessories</p>
+          <p class="start-cooking--card__text">Accessories</p>
         </div>
       </div>
 
@@ -95,11 +98,11 @@
     <!--Start Cooking end-->
 
     <!--New arrivals start-->
-    <section>
+    <section class="new-arrivals-section">
 
       <!--Heading-->
       <div class="new-arrivals-section--header__Text">
-        <h1>New Arrivals</h1>
+        <h1 class="section-header__text">New Arrivals</h1>
       </div>
 
       <!--Cards-->
@@ -145,7 +148,7 @@
       <!--Heading-->
       <div class="container">
         <div class="col-12 text-center">
-          <h1>Best Sellers</h1>
+          <h1 class="section-header__text">Best Sellers</h1>
         </div>
         <!--Cards-->
         <div class="row d-flex justify-content-between">
@@ -220,7 +223,9 @@
     <!--Reviews start (grid only)-->
     <section class="reviews-section">
 
-      <div class="grid-section--header__Text"><h1>Reviews</h1></div>
+      <div class="grid-section--header__Text">
+        <h1 class="section-header__text">Reviews</h1>
+      </div>
 
       <div class="reviews-card-section">
         <!--Cards-->
@@ -272,7 +277,57 @@
     <!--Reviews end-->
 
     <!--Footer start-->
-    <footer></footer>
+    <footer>
+      <div class="d-flex justify-content-between">
+        <div class="row d-flex justify-content-between">
+          <!--Column 1-->
+          <div class="col-3">
+            <h1 class="footer-header__text">ABOUT OUR HOME</h1>
+            <ul>
+              <li>ABOUT US</li>
+              <li>CAREERS</li>
+              <li>PRIVACY</li>
+              <li>MEDIA RELATIONS</li>
+            </ul>
+          </div>
+  
+          <!--Column 2-->
+          <div class="col-3">
+            <h1 class="footer-header__text">PRODUCTS</h1>
+            <ul>
+              <li>COOKWARE</li>
+              <li>BAKEWARE</li>
+              <li>BEST SELLERS</li>
+              <li>ACCESSORIES</li>
+            </ul>
+          </div>
+  
+          <!--Column 3-->
+          <div class="col-3">
+            <h1 class="footer-header__text">CUSTOMER SERVICE</h1>
+            <ul>
+              <li>CONTACT US</li>
+              <li>ORDER STATUS</li>
+              <li>RETURNS & EXCHANGES</li>
+              <li>FAQS</li>
+            </ul>
+          </div>
+        </div>
+
+        <!--Subscribe-->
+        <div>
+          <p></p>
+          <div></div>
+          <div>
+            <img src="" alt="Facebook Icon">
+            <img src="" alt="Twitter Icon">
+            <img src="" alt="Instagram Icon">
+            <img src="" alt="LinkedIn Icon">
+          </div>
+        </div>
+
+      </div>
+    </footer>
     <!--Footer end-->
 
     <script
