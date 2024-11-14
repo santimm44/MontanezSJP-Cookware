@@ -1,3 +1,6 @@
+body{
+    background-color: #EDEDED;
+}
 .section-hero{
     width: 100%;
     height: 72rem;
@@ -9,6 +12,10 @@
     display: flex;
     justify-content: start;
     align-items: center;
+}
+
+.navbar__bg-color{
+    background-color: #EDEDED;
 }
 
 .hero-section__Text{
@@ -29,14 +36,68 @@
 
 .start-cooking-section{
     display: grid;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: 58px 1fr;
+}
+
+.start-cooking-card-section{
+    display: grid;
+
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin: 0;
+}
+
+.start-cooking--card__image{
+    width: 376px;
+    height: 347px;
+    gap: 0px;
+    border-radius: 10px;
+    opacity: 0px;
+
 }
 
 .start-cooking-section--header__Text{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    /* display: grid;
 
-    grid-column-start: 2;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-start: 2; */
+    
+    align-items: center;
     text-align: center;
 }
 
+.new-arrivals-section--header__Text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.new-arrivals-section--cards{
+    display: flex;
+    justify-content: space-around;
+}
+
+.new-arrivals-section--card__image{
+    width: 805px;
+    height: 632px;
+    gap: 0px;
+    opacity: 0px;
+}
+
+.best-sellers-section--card__image{
+    width: 100%;
+    height: auto;
+    gap: 0px;
+    border-radius: 10px;
+    opacity: 0px;
+}
+.best-sellers-section--card{
+    border: solid black;
+    border-radius: 10px;
+    gap: 24px;
+    padding: 24px;
+}
+
+.best-sellers-section__button{
+    border: solid black;
+    padding: 10px 10px 0 10px;
+}
