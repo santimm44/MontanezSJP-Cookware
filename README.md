@@ -30,6 +30,10 @@ Also watch this short video from the UI/UX Team on how to create a font stack
 
 ## Comments
 
-- Comment A
-- Comment B
-- Comment C
+- for the hero section instead of align items center I Recommend trying align items end with a margin-bottom to get your spacing, using em or rem for the margin should also keep it from being too silly at different sized, although you could also change the margin size using breakpoints with media
+
+- for image sizing i highly recommend "Margin: 0 auto;" which will set the top and bottom margins to 0 and then set the left and right to auto, combining this with a width setting like "Width: 95%" will automatically even the margin on the sized helping to size the image without the use of a set width or height
+
+- the only other thing i can think of is making the footers subscribe button have a transparent background while changing the text and border color
+
+- i think you have done an amazing job so far, keep it up
