@@ -13,13 +13,40 @@ li{
     font-weight: 300;
     line-height: 18.75px;
     text-align: left;
-    text-underline-position: from-font;
-    text-decoration-skip-ink: none;
+    list-style: none;
+    width: 150px;
 }
 li:hover
 {
- 
+ color: greenyellow;
 }
+
+.nav-item:hover{
+    color: #982A1C;
+    text-decoration: underline;
+}
+
+.nav-item{
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 28.13px;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #3F3C3C;
+}
+
+.nav__logo{
+    width: 92.94px;
+    height: 79px;
+    top: 24px;
+    left: 113px;
+}
+
+.nav-link__sale-text{
+    color: #B73A2A;
+}
+
 .section-hero{
     width: 100%;
     height: 72rem;
@@ -64,7 +91,10 @@ li:hover
     text-align: left;
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
+    padding-top: 92px;
+    padding-left: 112px;
 }
+
 
 .hero-section__Text{
     border: solid black 1px;
@@ -114,12 +144,30 @@ li:hover
 .start-cooking--card__image{
     width: 376px;
     height: 347px;
-    gap: 0px;
     border-radius: 10px;
-    opacity: 0px;
-
+    
 }
+.start-cooking--card__zoom-image{
+    overflow: hidden;
+    border-radius: 10px;
+}
+.start-cooking--card__zoom-image img {
+    transition: transform .5s ease;
+}
+.start-cooking--card__zoom-image:hover img{
+    transform: scale(1.5);
+}
+/*The method used to make 
+"start-cooking--card__zoom-image" and the subsequent 
+classes are not my own. Credit goes to Rahul 
+as shown in the followwing citation
 
+Rahul. 
+“Smooth Image Zoom on Hover Effects with CSS.” 
+W3Bits, 
+6 June 2020, 
+w3bits.com/css-image-hover-zoom/. 
+*/
 .start-cooking--card__text{
 
     font-size: 36px;
@@ -154,8 +202,8 @@ li:hover
 .new-arrivals-section--card__image{
     width: 805px;
     height: 632px;
-    gap: 0px;
-    opacity: 0px;
+
+    
 }
 
 .best-sellers-section--card__image{
@@ -189,13 +237,14 @@ li:hover
 .reviews-card-section{
     display: grid;
 
-    grid-template-columns: 531px 531px 531px;
+    grid-template-columns: 116px auto auto auto 116px;
     
     justify-content: center;
 
     gap: 20px;
 
-    margin:65px 100px 100px 100px;
+    margin-top:65px;
+    margin-bottom: 116.25px;
 }
 
 .grid-section--header__Text{
@@ -229,3 +278,4 @@ li:hover
     gap: 16px;
     border-radius: 10px;
 }
+
