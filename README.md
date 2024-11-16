@@ -26,7 +26,7 @@ Also watch this short video from the UI/UX Team on how to create a font stack
 - No use of the bootstrap "card" class - IE creating your own cards  
 - Use CSS systems to style site are you use but must use each one at least one
 
-## Peer Reviewed By: John Doe
+## Peer Reviewed By: Charles
 
 ## Comments
 
